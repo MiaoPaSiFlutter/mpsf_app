@@ -4,15 +4,15 @@ import 'package:mpsf_app/common/widgets/blank/mpsf_empty_widget.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class JdBlogDetailScreen extends StatefulWidget {
+class MpsfBlogDetailScreen extends StatefulWidget {
   final String initialUrl;
-  JdBlogDetailScreen({Key key, this.initialUrl}) : super(key: key);
+  MpsfBlogDetailScreen({Key key, this.initialUrl}) : super(key: key);
 
   @override
-  _JdBlogDetailScreenState createState() => _JdBlogDetailScreenState();
+  _MpsfBlogDetailScreenState createState() => _MpsfBlogDetailScreenState();
 }
 
-class _JdBlogDetailScreenState extends State<JdBlogDetailScreen>
+class _MpsfBlogDetailScreenState extends State<MpsfBlogDetailScreen>
     with WidgetsBindingObserver, MpsfCommonFunction {
   final Completer<WebViewController> _controller =
       Completer<WebViewController>();

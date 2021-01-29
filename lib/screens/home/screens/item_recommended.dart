@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mpsf_app/common/net/network.dart';
 import 'package:mpsf_app/common/widgets/blank/mpsf_empty_widget.dart';
-import 'package:mpsf_app/screens/home/model/jd_home_cell_news.dart';
-import 'package:mpsf_app/screens/home/model/jd_home_news_list_model.dart';
+import 'package:mpsf_app/screens/home/model/home_news_list_model.dart';
+import 'package:mpsf_app/screens/home/widget/home_news_cell.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:toast/toast.dart';
@@ -61,8 +61,8 @@ class _ItemRecommendedState extends State<ItemRecommended>
         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
         itemCount: _items.length,
         itemBuilder: (context, index) {
-          JdHomeNewsListModel model = _items[index];
-          return JdHomeCellNews(
+          HomeNewsListModel model = _items[index];
+          return HomeNewsCell(
             model: model,
             callback: () {
               log("${model.toJson}");
@@ -103,7 +103,7 @@ class _ItemRecommendedState extends State<ItemRecommended>
       }
       if (respM.data != null && respM.data is List) {
         for (var map in respM.data) {
-          JdHomeNewsListModel model = JdHomeNewsListModel.fromJson(map);
+          HomeNewsListModel model = HomeNewsListModel.fromJson(map);
           _items.add(model);
         }
       }

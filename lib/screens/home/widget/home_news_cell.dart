@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:mpsf_app/screens/home/model/home_news_list_model.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 
-import 'jd_home_news_list_model.dart';
-
-class JdHomeCellNews extends StatelessWidget {
-  final JdHomeNewsListModel model;
+class HomeNewsCell extends StatelessWidget {
+  final HomeNewsListModel model;
   final VoidCallback callback;
 
-  const JdHomeCellNews({Key key, this.model, this.callback}) : super(key: key);
+  const HomeNewsCell({Key key, this.model, this.callback}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

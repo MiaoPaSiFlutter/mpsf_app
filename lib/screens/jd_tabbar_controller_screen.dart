@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 
-import 'home/jd_home_screen.dart';
-import 'category/jd_category_screen.dart';
-import 'discover/jd_discover_screen.dart';
-import 'shopcar/jd_shopcar_screen.dart';
-import 'account/jd_account_screen.dart';
+import 'home/mpsf_home_screen.dart';
+import 'category/mpsf_category_screen.dart';
+import 'discover/mpsf_discover_screen.dart';
+import 'shopcar/mpsf_shopcar_screen.dart';
+import 'account/mpsf_account_screen.dart';
 
 class JdTabbarControllerScreen extends StatefulWidget {
   JdTabbarControllerScreen({Key key}) : super(key: key);
@@ -52,11 +52,11 @@ class _JdTabbarControllerScreenState extends State<JdTabbarControllerScreen> {
   @override
   void initState() {
     _bottomNavPages
-      ..add(JdHomeScreen())
-      ..add(JdCategoryScreen())
-      ..add(JdDiscoverScreen())
-      ..add(JdShopcarScreen())
-      ..add(JdAccountScreen());
+      ..add(MpsfHomeScreen())
+      ..add(MpsfCategoryScreen())
+      ..add(MpsfDiscoverScreen())
+      ..add(MpsfShopcarScreen())
+      ..add(MpsfAccountScreen());
     super.initState();
   }
 

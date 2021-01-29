@@ -4,7 +4,7 @@ import 'package:mpsf_app/common/event_bus/event_bus_utils.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 
 import 'jd_tabbar_controller_screen.dart';
-import 'login/jd_login_screen.dart';
+import 'login/mpsf_login_screen.dart';
 
 class JdWindowScreen extends StatefulWidget {
   JdWindowScreen({Key key}) : super(key: key);
@@ -31,7 +31,7 @@ class _JdWindowScreenState extends State<JdWindowScreen> {
     appEvent = eventBus.on<AppEvent>((event) {
       if (event.eventType == AppEventType.Login) {
         MpsfNavigatorUtils.pushPage(
-            context: context, targetPage: JdLoginScreen());
+            context: context, targetPage: MpsfLoginScreen());
       }
     });
   }

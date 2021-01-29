@@ -1,4 +1,4 @@
-class JdHomeListModel {
+class HomeListModel {
   int id;
   String title;
   String url;
@@ -11,7 +11,7 @@ class JdHomeListModel {
   int commentCount;
   int diggCount;
 
-  JdHomeListModel(
+  HomeListModel(
       {this.id,
       this.title,
       this.url,
@@ -24,7 +24,7 @@ class JdHomeListModel {
       this.commentCount,
       this.diggCount});
 
-  JdHomeListModel.fromJson(Map<String, dynamic> json) {
+  HomeListModel.fromJson(Map<String, dynamic> json) {
     id = json['Id'];
     title = json['Title'];
     url = json['Url'];

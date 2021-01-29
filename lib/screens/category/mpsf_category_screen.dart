@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 
 
-class JdDiscoverScreen extends StatefulWidget {
-  JdDiscoverScreen({Key key}) : super(key: key);
+class MpsfCategoryScreen extends StatefulWidget {
+  MpsfCategoryScreen({Key key}) : super(key: key);
 
   @override
-  _JdDiscoverScreenState createState() => _JdDiscoverScreenState();
+  _MpsfCategoryScreenState createState() => _MpsfCategoryScreenState();
 }
 
-class _JdDiscoverScreenState extends State<JdDiscoverScreen>
+class _MpsfCategoryScreenState extends State<MpsfCategoryScreen>
     with
         AutomaticKeepAliveClientMixin,
         WidgetsBindingObserver,
@@ -20,7 +20,7 @@ class _JdDiscoverScreenState extends State<JdDiscoverScreen>
     super.build(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text('发现'),
+        title: Text('分类'),
       ),
       body: Container(
         decoration: BoxDecoration(

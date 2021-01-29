@@ -3,14 +3,14 @@ import 'package:mpsf_package_common/mpsf_package_common.dart';
 
 
 
-class JdShopcarScreen extends StatefulWidget {
-  JdShopcarScreen({Key key}) : super(key: key);
+class MpsfShopcarScreen extends StatefulWidget {
+  MpsfShopcarScreen({Key key}) : super(key: key);
 
   @override
-  _JdShopcarScreenState createState() => _JdShopcarScreenState();
+  _MpsfShopcarScreenState createState() => _MpsfShopcarScreenState();
 }
 
-class _JdShopcarScreenState extends State<JdShopcarScreen>
+class _MpsfShopcarScreenState extends State<MpsfShopcarScreen>
     with
         AutomaticKeepAliveClientMixin,
         WidgetsBindingObserver,

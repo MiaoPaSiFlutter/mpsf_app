@@ -6,14 +6,14 @@ import 'screens/item_hotweek.dart';
 import 'screens/item_news.dart';
 import 'screens/item_recommended.dart';
 
-class JdHomeScreen extends StatefulWidget {
-  JdHomeScreen({Key key}) : super(key: key);
+class MpsfHomeScreen extends StatefulWidget {
+  MpsfHomeScreen({Key key}) : super(key: key);
 
   @override
-  _JdHomeScreenState createState() => _JdHomeScreenState();
+  _MpsfHomeScreenState createState() => _MpsfHomeScreenState();
 }
 
-class _JdHomeScreenState extends State<JdHomeScreen>
+class _MpsfHomeScreenState extends State<MpsfHomeScreen>
     with
         AutomaticKeepAliveClientMixin,
         SingleTickerProviderStateMixin,

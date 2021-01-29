@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mpsf_app/common/net/network.dart';
 import 'package:mpsf_app/common/widgets/blank/mpsf_empty_widget.dart';
-import 'package:mpsf_app/screens/blogdetail/jd_blog_detail_screen.dart';
-import 'package:mpsf_app/screens/home/model/jd_home_cell.dart';
-import 'package:mpsf_app/screens/home/model/jd_home_list_model.dart';
+import 'package:mpsf_app/screens/blogdetail/mpsf_blog_detail_screen.dart';
+import 'package:mpsf_app/screens/home/widget/home_cell.dart';
+import 'package:mpsf_app/screens/home/model/home_list_model.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:toast/toast.dart';
@@ -62,13 +62,13 @@ class _ItemBlogsState extends State<ItemBlogs>
         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
         itemCount: _items.length,
         itemBuilder: (context, index) {
-          JdHomeListModel model = _items[index];
-          return JdHomeCell(
+          HomeListModel model = _items[index];
+          return HomeCell(
             model: model,
             callback: () {
               MpsfNavigatorUtils.pushPage(
                   context: context,
-                  targetPage: JdBlogDetailScreen(initialUrl: model.url));
+                  targetPage: MpsfBlogDetailScreen(initialUrl: model.url));
             },
           );
         },
@@ -105,7 +105,7 @@ class _ItemBlogsState extends State<ItemBlogs>
       }
       if (respM.data != null && respM.data is List) {
         for (var map in respM.data) {
-          JdHomeListModel model = JdHomeListModel.fromJson(map);
+          HomeListModel model = HomeListModel.fromJson(map);
           _items.add(model);
         }
       }

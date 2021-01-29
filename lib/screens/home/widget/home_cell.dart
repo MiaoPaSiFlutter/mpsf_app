@@ -1,15 +1,14 @@
 
 import 'package:flutter/material.dart';
+import 'package:mpsf_app/screens/home/model/home_list_model.dart';
 import 'package:mpsf_app/screens/home/relative_date_format.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 
-import 'jd_home_list_model.dart';
-
-class JdHomeCell extends StatelessWidget {
-  final JdHomeListModel model;
+class HomeCell extends StatelessWidget {
+  final HomeListModel model;
   final VoidCallback callback;
 
-  const JdHomeCell({Key key, this.model, this.callback}) : super(key: key);
+  const HomeCell({Key key, this.model, this.callback}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

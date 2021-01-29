@@ -1,15 +1,18 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 
+import 'setting/mpsf_setting_screen.dart';
 
-class JdCategoryScreen extends StatefulWidget {
-  JdCategoryScreen({Key key}) : super(key: key);
+
+class MpsfAccountScreen extends StatefulWidget {
+  MpsfAccountScreen({Key key}) : super(key: key);
 
   @override
-  _JdCategoryScreenState createState() => _JdCategoryScreenState();
+  _MpsfAccountScreenState createState() => _MpsfAccountScreenState();
 }
 
-class _JdCategoryScreenState extends State<JdCategoryScreen>
+class _MpsfAccountScreenState extends State<MpsfAccountScreen>
     with
         AutomaticKeepAliveClientMixin,
         WidgetsBindingObserver,
@@ -20,7 +23,8 @@ class _JdCategoryScreenState extends State<JdCategoryScreen>
     super.build(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text('分类'),
+        title: Text("我的"),
+        actions: getAppBarActions()
       ),
       body: Container(
         decoration: BoxDecoration(
@@ -29,6 +33,28 @@ class _JdCategoryScreenState extends State<JdCategoryScreen>
       ),
     );
   }
+
+  ///导航栏返回键
+  List<Widget> getAppBarActions() {
+    List<Widget> actions = [];
+    Widget setting = Container(
+      width: getNavigationBarHeight(),
+      height: double.infinity,
+      child: IconButton(
+        onPressed: clickSettingItem,
+        icon: Icon(Icons.settings),
+      ),
+    );
+
+    actions.add(setting);
+    return actions;
+  }
+
+  void clickSettingItem() {
+    log("---clickSettingItem");
+    MpsfNavigatorUtils.pushPage(context: context, targetPage: MpsfSettingScreen());
+  }
+
 
   ///////////////////////////////////////////
   ///////////////////////////////////////////

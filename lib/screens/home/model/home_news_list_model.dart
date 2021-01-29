@@ -1,4 +1,4 @@
-class JdHomeNewsListModel {
+class HomeNewsListModel {
   int id;
   String title;
   String summary;
@@ -9,7 +9,7 @@ class JdHomeNewsListModel {
   int diggCount;
   String dateAdded;
 
-  JdHomeNewsListModel(
+  HomeNewsListModel(
       {this.id,
       this.title,
       this.summary,
@@ -20,7 +20,7 @@ class JdHomeNewsListModel {
       this.diggCount,
       this.dateAdded});
 
-  JdHomeNewsListModel.fromJson(Map<String, dynamic> json) {
+  HomeNewsListModel.fromJson(Map<String, dynamic> json) {
     id = json['Id'];
     title = json['Title'];
     summary = json['Summary'];

@@ -9,7 +9,7 @@ import 'package:mpsf_app/common/net/network.dart';
 import 'package:mpsf_app/common/widgets/blank/mpsf_empty_widget.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 import 'package:toast/toast.dart';
-import 'jd_login_authorize_screen.dart';
+import 'mpsf_login_authorize_screen.dart';
 
 OutlineInputBorder border = const OutlineInputBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -21,14 +21,14 @@ OutlineInputBorder focusedBorder = const OutlineInputBorder(
     borderRadius: BorderRadius.all(Radius.circular(10)),
     borderSide: BorderSide(color: Colors.blue, width: 2.0));
 
-class JdLoginScreen extends StatefulWidget {
-  JdLoginScreen({Key key}) : super(key: key);
+class MpsfLoginScreen extends StatefulWidget {
+  MpsfLoginScreen({Key key}) : super(key: key);
 
   @override
-  _JdLoginScreenState createState() => _JdLoginScreenState();
+  _MpsfLoginScreenState createState() => _MpsfLoginScreenState();
 }
 
-class _JdLoginScreenState extends State<JdLoginScreen>
+class _MpsfLoginScreenState extends State<MpsfLoginScreen>
     with WidgetsBindingObserver, MpsfCommonFunction {
   ///用来控制  TextField 焦点的获取与关闭
   FocusNode _focusNode = FocusNode();
@@ -100,7 +100,7 @@ class _JdLoginScreenState extends State<JdLoginScreen>
   void enterWebToLogin(BuildContext context) async {
     final result = await Navigator.push(context,
         CupertinoPageRoute(builder: (BuildContext context) {
-      return JdMyLoginAuthorizeScreen();
+      return MpsfLoginAuthorizeScreen();
     }));
 
     this._controller.text = '$result'; // 设置初始值

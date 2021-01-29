@@ -6,16 +6,16 @@ import 'package:mpsf_app/common/widgets/blank/mpsf_empty_widget.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class JdMyLoginAuthorizeScreen extends StatefulWidget {
+class MpsfLoginAuthorizeScreen extends StatefulWidget {
   final String initialUrl;
-  JdMyLoginAuthorizeScreen({Key key, this.initialUrl}) : super(key: key);
+  MpsfLoginAuthorizeScreen({Key key, this.initialUrl}) : super(key: key);
 
   @override
-  _JdMyLoginAuthorizeScreenState createState() =>
-      _JdMyLoginAuthorizeScreenState();
+  _MpsfLoginAuthorizeScreenState createState() =>
+      _MpsfLoginAuthorizeScreenState();
 }
 
-class _JdMyLoginAuthorizeScreenState extends State<JdMyLoginAuthorizeScreen>
+class _MpsfLoginAuthorizeScreenState extends State<MpsfLoginAuthorizeScreen>
     with WidgetsBindingObserver, MpsfCommonFunction {
   final Completer<WebViewController> _controller =
       Completer<WebViewController>();

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:mpsf_package_common/common_widgets/mpsf_imageview.dart';
 
-class JdCell extends StatelessWidget {
+class MpsfCell extends StatelessWidget {
   final String title;
   final String subtitle;
   final double height;
   final EdgeInsetsGeometry margin;
-  const JdCell({
+  const MpsfCell({
     Key key,
     this.title: "",
     this.subtitle: "",

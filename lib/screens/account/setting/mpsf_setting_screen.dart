@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mpsf_app/common/widgets/blank/mpsf_empty_widget.dart';
-import 'package:mpsf_app/common/widgets/cell/jd_cell.dart';
-import 'package:mpsf_app/screens/login/jd_login_screen.dart';
+import 'package:mpsf_app/common/widgets/cell/mpsf_cell.dart';
+import 'package:mpsf_app/screens/login/mpsf_login_screen.dart';
 import 'package:group_list_view/group_list_view.dart';
 import 'package:mpsf_package_common/mpsf_package_common.dart';
 
-class JdMySettingScreen extends StatefulWidget {
-  JdMySettingScreen({Key key}) : super(key: key);
+class MpsfSettingScreen extends StatefulWidget {
+  MpsfSettingScreen({Key key}) : super(key: key);
 
   @override
-  _JdMySettingScreenState createState() => _JdMySettingScreenState();
+  _MpsfSettingScreenState createState() => _MpsfSettingScreenState();
 }
 
-class _JdMySettingScreenState extends State<JdMySettingScreen>
+class _MpsfSettingScreenState extends State<MpsfSettingScreen>
     with WidgetsBindingObserver, MpsfCommonFunction {
   List _sections = [
     [
@@ -114,13 +114,13 @@ class _JdMySettingScreenState extends State<JdMySettingScreen>
       String title = cellData["title"] ?? "";
       return Material(
         child: InkWell(
-          child: JdCell(
+          child: MpsfCell(
             title: title,
           ),
           onTap: () {
             if (title == "账号管理") {
               MpsfNavigatorUtils.pushPage(
-                  context: context, targetPage: JdLoginScreen());
+                  context: context, targetPage: MpsfLoginScreen());
             }
           },
         ),
