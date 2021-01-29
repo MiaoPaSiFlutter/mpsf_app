@@ -1,0 +1,1308 @@
+{
+	"code": 0,
+	"floors": [{
+		"bId": "eCustom_flo_341",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"cardsResetOrderInfo": [{
+				"sort": 101,
+				"functionId": "wendadongtai",
+				"maidianId": "MyJD"
+			}, {
+				"sort": 102,
+				"functionId": "jinrongfuwu",
+				"maidianId": "MyJD"
+			}, {
+				"sort": 103,
+				"functionId": "wodebaobao",
+				"maidianId": "MyJD"
+			}],
+			"closeReminder": {
+				"cardSubTitle": "您可前往“我的京东-账户设置-我的定制”重新开启此卡片~",
+				"tempCardTitle": "有新内容再为您推荐",
+				"cardTitle": "确定不再出现？"
+			},
+			"topNavigationBar": {
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdreactcommon\",\"modulename\":\"JDReactMySpace\",\"appname\":\"JDReactMySpace\",\"transparentenable\":true,\"ishidden\":true}",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"pageParam": "0",
+					"eventId": "MyJD_TopAccountset",
+					"pageId": "MyJD_Main",
+					"pageLevel": "",
+					"pagerParam": ""
+				},
+				"headImg": "https://storage.360buyimg.com/i.imageUpload/ced2b2bbcac7d1b0b1a6caf331353733313939323936303536_big.jpg",
+				"settingInfo": {
+					"title": "设置",
+					"buttonIcon": "https://img30.360buyimg.com/mobilecms/jfs/t21760/126/1156744913/3274/68306146/5b207488N8b3f4e54.png",
+					"buttonType": "A",
+					"updateRedDotTime": 1554872400000,
+					"settingId": "shezhi",
+					"showRedDot": 0
+				},
+				"functionId": "topNavigationBar",
+				"contentColor": ""
+			},
+			"floatLayer": {
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://prodev.m.jd.com/mall/active/3DaSYTYktqyvF34UP7jzea2Vh9BD/index.html?_ts=1587604270945&utm_source=weixin&utm_medium=weixin&utm_campaign=t_1000072672_17053_001&utm_term=Wxfriends&ad_od=share&utm_user=plusmember&from=groupmessage&isappinstalled=0&PTAG=17053.1.1",
+					"needLogin": 0
+				},
+				"title": {
+					"value": "功能反馈"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_SideEnter",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"safeImage": "https://img13.360buyimg.com/imagetools/jfs/t1/89220/12/18912/11560/5e9bb2c2Ebf0303fe/22b9d346df6cac9b.png",
+				"functionId": "cebianlan"
+			},
+			"supportFloors": ["wendadongtai", "jinrongfuwu", "pluscard"]
+		},
+		"mId": "basefloorinfo",
+		"refId": "basefloorinfo",
+		"sortId": 0
+	}, {
+		"bId": "userinfo_flo_340",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"jingxiangCredit": [{
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://vip.m.jd.com?jdreactkey=JDReactVip&jdreactapp=JDReactVip",
+					"needLogin": 0
+				},
+				"text": "京享值",
+				"clickMta": {
+					"eventParam": "62",
+					"eventId": "MyJD_Privilege",
+					"pageId": "MyJD_Main",
+					"pageLevel": "2"
+				},
+				"encStr": "nTqenbnFVwcVdoOYObO8qBJdpq8qdcXHpl3xMCMAntA=",
+				"type": 1,
+				"functionId": "huiyuandengji",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": "MyJD_Main"
+				},
+				"enc": 2
+			}, {
+				"timestamp": 1546358399000,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://mcredit.jd.com/credit/index.html?from=jingwo&agreementSource=17",
+					"needLogin": 0
+				},
+				"text": "小白信用",
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_WhiteCredit",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"encStr": "nTqenbnFVwdVMHl1TuyJ9+PHfc5RYIsFzfvnI2reoD8=",
+				"type": 4,
+				"showFlash": 0,
+				"functionId": "xiaobaixinyong",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "MyJD_WhiteCreditExpo",
+					"pageId": "MyJD_Main"
+				},
+				"enc": 2
+			}, {
+				"timestamp": 1556358399001,
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdreactcommon\",\"modulename\":\"JDReactMyFamily\",\"appname\":\"JDReactMyFamily\",\"ishidden\":true,\"param\":{\"page\":\"inviterPage\",\"transparentenable\":true,\"routeParams\":{\"source\":\"myjd\"}}}",
+					"needLogin": 1
+				},
+				"text": "家庭号",
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Family",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"bubbleImg": "https://img30.360buyimg.com/mobilecms/jfs/t1/86613/24/16684/8900/5e7c27feE320144c0/139d731e5e7c0905.png",
+				"type": 5,
+				"functionId": "jiatinghaoClose",
+				"expoMta": {
+					"eventParam": "0",
+					"eventId": "MyJD_FamilyGuideExpo",
+					"pageId": "MyJD_Main"
+				}
+			}],
+			"style": 1,
+			"bgImgInfo": {
+				"radianImgDark": "https://img30.360buyimg.com/mobilecms/jfs/t1/86295/15/12142/2659/5e44bb6eEef3f8482/a9bf622c0cffe951.png",
+				"radianImg": "https://img30.360buyimg.com/mobilecms/jfs/t16765/199/1674461405/2235/5c334443/5ad46dfcNfb25c241.png",
+				"bgImg": "https://img11.360buyimg.com/devfe/jfs/t1/38820/14/478/101563/5cb996b1Ee7af52f6/76873fa794487ae7.png"
+			},
+			"blackCardInfo": {
+				"imgUrl": "https://img20.360buyimg.com/devfe/jfs/t1/57109/10/4/67457/5cd170f4E3015d117/08f66f243c5af570.png",
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://plus.m.jd.com/index?flow_system=myhome&flow_entrance=myhome1&flow_channel=ios&detainer=1398XHSIWsjshwe12",
+					"needLogin": 0
+				},
+				"textColor": "#ffdd53",
+				"redDotUnixTime": 0,
+				"clickMta": {
+					"eventParam": "4030-1000_每月5张运费券_0",
+					"eventId": "MyJD_VIPlus",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"rightText": "立即查看",
+				"midText": "每月5张运费券",
+				"leftImg": "https://img30.360buyimg.com/mobilecms/jfs/t1/24188/16/15317/3343/5caedd79Ed486421c/e1f929f814edf8f7.png",
+				"flashUnixTime": 0,
+				"lottieUrl": "https://storage.360buyimg.com/myjd/ios_black.zip",
+				"type": 1,
+				"expoMta": {
+					"eventParam": "4030-1000_每月5张运费券_0",
+					"eventId": "MyJD_VIPlusExpo",
+					"pageId": "MyJD_Main"
+				}
+			},
+			"userLevelInfo": {
+				"userLevelClass": "金牌",
+				"levelImg": "https://img30.360buyimg.com/mobilecms/jfs/t1/88501/25/15857/1804/5e7822e1E42132d7d/ad846a97b538a34e.png",
+				"type": 2
+			},
+			"labelColorStyle": 0,
+			"textColorNode": {
+				"normal": "#ffffff",
+				"dark": "#262626",
+				"light": "#ffffff"
+			},
+			"userInfoSns": {
+				"imgUrl": "https://storage.360buyimg.com/i.imageUpload/ced2b2bbcac7d1b0b1a6caf331353733313939323936303536_big.jpg",
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdreactcommon\",\"modulename\":\"JDReactMySpace\",\"appname\":\"JDReactMySpace\",\"transparentenable\":true,\"ishidden\":true}",
+					"needLogin": 1
+				},
+				"registerImgUrl": "https://m.360buyimg.com/mobilecms/jfs/t9907/78/301381973/19662/7361d520/59cb6716N96c2b784.png",
+				"title": "我不是寻宝鼠",
+				"clickMta": {
+					"pageParam": "1",
+					"eventId": "MyJD_TopAccountset",
+					"pageId": "MyJD_Main",
+					"pageLevel": "",
+					"pagerParam": ""
+				},
+				"faceLoginImg": "https://m.360buyimg.com/mobilecms/jfs/t16384/38/216605903/10973/1dad1358/5a2e2656N0ef86340.png"
+			},
+			"userType": 1
+		},
+		"mId": "userinfo",
+		"refId": "userimage",
+		"sortId": 1
+	}, {
+		"bId": "eCustom_flo_426",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"orderList": [{
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/91385/35/12254/647/5e44bb6eE26a6db54/1dc4b7453d2d41ef.png",
+				"redDotType": 3,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDOrderModule/showList?listType=2&fromPage=MyJDHome",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "待付款"
+				},
+				"clickMta": {
+					"pageParam": "0",
+					"eventParam": "",
+					"eventId": "MyJD_NotPay",
+					"pageId": "MyJD_Main",
+					"pageLevel": "2"
+				},
+				"encStr": "hy8i+RodQM5GTz8iOeXB1uw19pPTpmdIDl5Z+eiiLYA=",
+				"safeImage": "https://m.360buyimg.com/mobilecms/jfs/t1/4472/25/3697/1672/5b9a1773E767c363f/aaf685ca17189011.png",
+				"value": 0,
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"functionId": "daifukuan",
+				"enc": 2
+			}, {
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/92757/22/12272/1079/5e44bb6eE9b09f342/efe8e910f85317ab.png",
+				"redDotType": 3,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDOrderModule/showList?listType=3&fromPage=MyJDHome",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "待收货"
+				},
+				"clickMta": {
+					"pageParam": "0",
+					"eventParam": "",
+					"eventId": "MyJD_NotReceived",
+					"pageId": "MyJD_Main",
+					"pageLevel": "1"
+				},
+				"encStr": "hy8i+RodQM5GTz8iOeXB1uw19pPTpmdIDl5Z+eiiLYA=",
+				"safeImage": "https://m.360buyimg.com/mobilecms/jfs/t1/2795/40/3661/2104/5b9a1781Eedb31834/5487d20e8949bfbf.png",
+				"value": 0,
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"functionId": "daishouhuo",
+				"enc": 2
+			}, {
+				"redDotType": 3,
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/108275/39/5951/985/5e44bb6eEc7d0fbbf/ea9396eac6ba8830.png",
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDShareOrderModule/showCommentCenter",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"pageParam": "7",
+					"eventParam": "none",
+					"eventId": "MyJD_NotRaise",
+					"pageId": "MyJD_Main",
+					"pageLevel": "2"
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "待评价"
+				},
+				"encStr": "hy8i+RodQM6isvbfOnCXlcFVATmMiaL98+3h49KZwLs=",
+				"safeImage": "https://m.360buyimg.com/mobilecms/jfs/t26503/280/1577060562/1946/49c963ef/5be54740N33b2f620.png",
+				"value": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"updateRedDotTime": 0,
+				"isFirstComment": false,
+				"functionId": "daipingjia",
+				"enc": 2
+			}, {
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/105875/32/12210/1904/5e44bb6eE606d1b4e/3171c6c78a2630bb.png",
+				"redDotType": 3,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://ase.jd.com?jdreactkey=JDReactAfs&jdreactapp=JDReactAfs&page=home&sourceType=100",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "退换/售后"
+				},
+				"clickMta": {
+					"pageParam": "0",
+					"eventParam": "",
+					"eventId": "MyJD_Repair",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"encStr": "hy8i+RodQM5GTz8iOeXB1uw19pPTpmdIDl5Z+eiiLYA=",
+				"safeImage": "https://m.360buyimg.com/mobilecms/jfs/t1/2570/31/3667/2893/5b9a17a3Ead4a28bf/86bb18794adcc9b3.png",
+				"value": 0,
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"functionId": "fanxiutuihuo",
+				"enc": 2
+			}, {
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/89228/5/12345/561/5e44bb6eEf0d6e416/84304e7f7b0c0241.png",
+				"redDotType": 3,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDOrderModule/showList?listType=1&fromPage=MyJDHome",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "我的订单"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_AllOrders",
+					"pageId": "MyJD_Main",
+					"pageLevel": "1"
+				},
+				"safeImage": "https://m.360buyimg.com/mobilecms/jfs/t1/1333/10/3635/1887/5b9a175dEd7d62262/66461e005a44a3f2.png",
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": "查看电子发票"
+				},
+				"functionId": "dingdanchaxun"
+			}],
+			"expoMta": {
+				"pageParam": "none",
+				"eventParam": "Notpay#0_Notreceived#0_NotRaise#7_Repair#0",
+				"eventId": "MyJD_SubscriptExpo",
+				"pageId": "MyJD_Main",
+				"pageLevel": ""
+			}
+		},
+		"mId": "orderIdFloor",
+		"refId": "dingdanchaxun",
+		"sortId": 2
+	}, {
+		"bId": "eCustom_flo_439",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"walletList": [{
+				"redDotType": 3,
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/92873/16/11996/2317/5e44bb6eE4dde66e6/bd1af92af5a704e7.png",
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdreactcommon\",\"appname\":\"JDReactMyJdSubModule\",\"modulename\":\"JDReactMyJdSubModule\",\"ishidden\":true,\"needLogin\":true,\"param\":{\"screen\":\"JDDetail\",\"jb\":\"203\",\"enc\":0,\"source\":\"myjdhome\"},\"h5params\":{\"source\":\"myjdhome\"}}",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"eventParam": "签到领京豆",
+					"eventId": "MyJD_JDbean",
+					"pageId": "MyJD_Main",
+					"pageLevel": "5"
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "京豆"
+				},
+				"encStr": "agaFT8RrRfjIKd4EP9fYvfvr/zGJ0BnU20qXe3YRMZTtE46FqzgPnQ==",
+				"numContent": "0",
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t25051/305/1213279512/3175/9cb22766/5b8e516cNa483405a.png",
+				"subtitle": {
+					"color": "#848484",
+					"value": "签到领京豆"
+				},
+				"updateRedDotTime": 0,
+				"contentType": 1,
+				"functionId": "jindou",
+				"expoMta": {
+					"eventParam": "签到领京豆",
+					"eventId": "MyJD_JdbeanExpo",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"enc": 2
+			}, {
+				"redDotType": 3,
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/107733/23/6035/1083/5e44bb6eE50f37de1/94579f556da4785a.png",
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"mycoupon\"}",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Coupon",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "优惠券"
+				},
+				"encStr": "agaFT8RrRfhc/cc8iXOz4TFbDdzk0ZtYU4F8Rc6/GhMZP1hK41sx2g==",
+				"numContent": "0",
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t27877/47/344724202/2135/6a55e262/5b8e5175N397a6d22.png",
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"updateRedDotTime": 0,
+				"contentType": 1,
+				"functionId": "youhuiquan",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": "",
+					"pageLevel": ""
+				},
+				"enc": 2
+			}, {
+				"redDotType": 3,
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/107538/17/5960/1004/5e44bb6eE1a8af57b/5b309a4774e54578.png",
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://bt.jd.com/v3/mobile/rGuide_initGuideMobile?source=JD_H5&channelName=5",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"eventParam": "想省钱点这里",
+					"eventId": "MyJD_Jdblanknote",
+					"pageId": "MyJD_Main",
+					"pageLevel": "2"
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "白条"
+				},
+				"encStr": "agaFT8RrRfiVN68V1+mAu9IHpKzKoanhHcn7nFs/f9mEyyxVk4BHI9/r3NzhBLOS",
+				"supportHide": "1",
+				"numContent": "0",
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t24820/92/1228875550/1996/4b342f13/5b8e51d9N7feec916.png",
+				"subtitle": {
+					"color": "#848484",
+					"value": "想省钱点这里"
+				},
+				"updateRedDotTime": 0,
+				"contentType": 1,
+				"functionId": "wodebaitiao",
+				"expoMta": {
+					"eventParam": "想省钱点这里",
+					"eventId": "MyJD_JdblanknoteExpo",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"enc": 2
+			}, {
+				"redDotType": 3,
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/93221/31/12156/1692/5e44bb6eEb3e5bf04/0e65069e8827eb00.png",
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://lc.jr.jd.com/finance/base/tips/index/?tipsType=fund&jumpData=%7B%22jumpUrl%22%3A%22https%3A%2F%2Flc.jr.jd.com%2Fck%2FxjkHold%2Findex%2F%3Fchannel%3D21148%26channelToken%3Dd8a4c2fd2850dd92f5d8679e053eeeb9%22%2C%22jumpType%22%3A%228%22%2C%22isclose%22%3Afalse%7D",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"eventParam": "红包天天领",
+					"eventId": "MyJD_GoldhouseTwo",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "京东小金库"
+				},
+				"encStr": "agaFT8RrRfiVN68V1+mAu9IHpKzKoanhHcn7nFs/f9mEyyxVk4BHI9/r3NzhBLOS",
+				"supportHide": "1",
+				"numContent": "0",
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t25162/105/1193984091/2530/19958916/5b8e5274N2ef615a8.png",
+				"subtitle": {
+					"color": "#848484",
+					"value": "红包天天领"
+				},
+				"updateRedDotTime": 0,
+				"contentType": 1,
+				"functionId": "xiaojinku",
+				"expoMta": {
+					"eventParam": "红包天天领",
+					"eventId": "MyJD_Goldhouse_Expo",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"enc": 2
+			}, {
+				"darkImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/104728/11/12126/1057/5e44bb6eE5023b14f/09e16a0fba318c6a.png",
+				"redDotType": 0,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDNJMyWalletModule/goToMyWalletPage",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "我的钱包"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Mywallet",
+					"pageId": "MyJD_Main",
+					"pageLevel": "1"
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t27085/59/320191809/2378/52df258f/5b8e5162N0add617a.png",
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"contentType": 0,
+				"functionId": "qianbaochaxun",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": "",
+					"pageLevel": ""
+				}
+			}]
+		},
+		"mId": "walletIdFloor",
+		"refId": "wodeqianbao",
+		"sortId": 3
+	}, {
+		"bId": "gameInteractionModule_flo_490",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"extendInfo": {
+				"header": {
+					"labelColor": "#2E2D2D",
+					"rightIconText4": {
+						"jumpInfo": {
+							"jumpType": 4,
+							"jumpUrl": "router://JDMyJdModule/goToGameEnterPage",
+							"needLogin": 1
+						},
+						"text": "查看更多",
+						"clickMta": {
+							"eventParam": "",
+							"eventId": "MyJD_GameMore",
+							"pageId": "MyJD_Main"
+						}
+					},
+					"labelName": "游戏与互动"
+				}
+			},
+			"nodes": [{
+				"redDotType": 0,
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"farmgame\"}",
+					"needLogin": 0
+				},
+				"subTitle": "0元领一箱水果",
+				"title": "东东农场",
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Game",
+					"pageId": "MyJD_Main"
+				},
+				"bubbleImage": "",
+				"imageType": 0,
+				"imageUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/53543/16/13749/7237/5da81595E43db3c7c/ed58f6567abd93cc.png",
+				"redDotTimeStamp": 1583461948359,
+				"playTimes": -1,
+				"functionId": "biz1"
+			}, {
+				"redDotType": 0,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://funearth.m.jd.com/babelDiy/bbbb/8zF4D6VX5RhsBFxkmLV7WXNk6iQ/index.html?channel=22",
+					"needLogin": 0
+				},
+				"subTitle": "万元奖金可提现",
+				"title": "赚30元",
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Game",
+					"pageId": "MyJD_Main"
+				},
+				"bubbleImage": "",
+				"imageType": 0,
+				"imageUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/107097/18/154/6235/5da81896E6c64d671/a736b2ea0c7c30ca.png",
+				"redDotTimeStamp": 1583461948359,
+				"playTimes": -1,
+				"functionId": "biz2"
+			}, {
+				"redDotType": 0,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://bean.m.jd.com/plantBean/index.action?source=wojing",
+					"needLogin": 0
+				},
+				"subTitle": "瓜分亿万京豆",
+				"title": "种豆得豆",
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Game",
+					"pageId": "MyJD_Main"
+				},
+				"bubbleImage": "",
+				"imageType": 0,
+				"imageUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/100228/30/144/5490/5da81644E925f457d/a883a9a020c85cdf.png",
+				"redDotTimeStamp": 1583461948359,
+				"playTimes": -1,
+				"functionId": "biz3"
+			}, {
+				"redDotType": 0,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://jdjoy.jd.com/pet/index",
+					"needLogin": 0
+				},
+				"subTitle": "养狗兑壕礼",
+				"title": "宠汪汪",
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Game",
+					"pageId": "MyJD_Main"
+				},
+				"bubbleImage": "",
+				"imageType": 0,
+				"imageUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/89700/2/1147/4596/5dbab80bE2b8298e2/d3ad0fb434b0dbb0.png",
+				"redDotTimeStamp": 1583461948359,
+				"playTimes": -1,
+				"functionId": "biz4"
+			}],
+			"expoMta": {
+				"eventParam": "",
+				"eventId": "MyJD_GameExpo",
+				"pageId": "MyJD_Main"
+			}
+		},
+		"mId": "gameInteractionModule",
+		"refId": "gameInteractionModule",
+		"sortId": 5
+	}, {
+		"bId": "multiBusinessModule_flo_398",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"extendInfo": {
+				"header": {
+					"labelColor": "#2E2D2D",
+					"rightIconText4": {
+						"jumpInfo": {
+							"jumpType": 4,
+							"jumpUrl": "router://JDMyJdModule/showMyjdMoreActivityPage?position=jingdonghuishou@@@1#13#100033-woJingBaiBao-909127#909127,woyaokaidian@@@1#13#100033-woJingBaiBao-909127#909127,duobaodao@@@1#13#100033-woJingBaiBao-909127#909127,xiaochengxu@@@1#13#100033-woJingBaiBao-909127#909127",
+							"needLogin": 1
+						},
+						"text": "查看更多",
+						"clickMta": {
+							"eventParam": "",
+							"eventId": "MyJD_ToolMore",
+							"pageId": "MyJD_Main"
+						}
+					},
+					"labelName": "工具与服务"
+				}
+			},
+			"maiDian": {
+				"moreActivity": {
+					"eventId": "MyJD_CommonfunctionExpo",
+					"pageId": "MyJD_Main",
+					"eventParam": "moreActivity-zhutihuanfu#3@@@1#13#100033-woJingBaiBao-909127#909127_moreActivity-xianzhiguanjia#4@@@1#13#100033-woJingBaiBao-909127#909127_moreActivity-yiyuan#5@@@1#13#100033-woJingBaiBao-909127#909127_moreActivity-wodeyuyue#6@@@1#13#100033-woJingBaiBao-909127#909127_moreActivity-jingdonghuiyuan#7@@@1#13#100033-woJingBaiBao-909127#909127_moreActivity-wodeshiyong#8@@@1#13#100033-woJingBaiBao-909127#909127"
+				}
+			},
+			"nodes": [{
+				"content": "https://img30.360buyimg.com/mobilecms/jfs/t1/15420/32/2789/6114/5c21a949E25e80108/8b21526ed503d552.png",
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://ihelp.jd.com",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_ServicesButler",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "客户服务"
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/15420/32/2789/6114/5c21a949E25e80108/8b21526ed503d552.png",
+				"bubbleImg": "",
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"updateRedDotTime": 1544418000000,
+				"contentType": 0,
+				"playTimes": 0,
+				"functionId": "wodefuwu",
+				"showRedDot": 0,
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}, {
+				"content": "https://img30.360buyimg.com/mobilecms/jfs/t1/88903/16/9941/163139/5e144f6aE463ee0c5/05041fb8ebec18cd.gif",
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://logistics-mrd.jd.com/express/index.html#/?source=appPostService",
+					"needLogin": 1
+				},
+				"clickMta": {
+					"eventParam": "0",
+					"eventId": "MyJD_Post",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "寄件服务"
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/88903/16/9941/163139/5e144f6aE463ee0c5/05041fb8ebec18cd.gif",
+				"bubbleImg": "https://img30.360buyimg.com/mobilecms/jfs/t29113/239/233042730/4249/6f7deecf/5bebffd3Nc38b4839.png",
+				"subtitle": {
+					"color": "#848484",
+					"value": "快递/收纳存储"
+				},
+				"updateRedDotTime": 1545282000000,
+				"contentType": 0,
+				"playTimes": 0,
+				"functionId": "jijianfuwu",
+				"showRedDot": 0,
+				"expoMta": {
+					"eventParam": "0",
+					"eventId": "MyJD_PostExpo",
+					"pageId": "MyJD_Main"
+				}
+			}, {
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdreactcommon\",\"appname\":\"JDReactSkinTheme\",\"modulename\":\"JDReactSkinTheme\",\"ishidden\":true,\"needLogin\":true,\"param\":{\"screen\":\"Channel\",\"sourceFrom\":\"0\",\"transparentenable\": true}}",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "主题换肤"
+				},
+				"clickMta": {
+					"eventParam": "moreActivity-zhutihuanfu@@@1#13#100033-woJingBaiBao-909127#909127",
+					"eventId": "MyJD_Commonfunction",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"safeImage": "https://m.360buyimg.com/growthplanet/jfs/t1/101403/28/18452/7231/5e95ec83Ef48c5b2c/d0297a6d58277c68.png",
+				"updateRedDotTime": 1586883962000,
+				"subtitle": {
+					"color": "#848484",
+					"value": "胖达也有春天"
+				},
+				"contentType": 0,
+				"showRedDot": "1",
+				"functionId": "zhutihuanfu"
+			}, {
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://paipai.m.jd.com/c2c/mine/personalCenter?entryid=p0020035xzgj04",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "闲置管家"
+				},
+				"clickMta": {
+					"eventParam": "moreActivity-xianzhiguanjia@@@1#13#100033-woJingBaiBao-909127#909127",
+					"eventId": "MyJD_Commonfunction",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/21003/22/2814/5716/5c20aec6E545d5b93/9a8f4c1731cc16a4.png",
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"contentType": 0,
+				"showRedDot": 0,
+				"functionId": "xianzhiguanjia"
+			}, {
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://m.healthjd.com/?requestIsvToken=true&hytm_source=wojing",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "问医生"
+				},
+				"clickMta": {
+					"eventParam": "moreActivity-yiyuan@@@1#13#100033-woJingBaiBao-909127#909127",
+					"eventId": "MyJD_Commonfunction",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/65403/3/4330/6045/5d26f5aaEc85e9b85/e2088e0eafe15d8c.png",
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"contentType": 0,
+				"showRedDot": 0,
+				"functionId": "yiyuan"
+			}, {
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://v.m.jd.com/webhtml/presell/index.html",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "我的预约"
+				},
+				"clickMta": {
+					"eventParam": "moreActivity-wodeyuyue@@@1#13#100033-woJingBaiBao-909127#909127",
+					"eventId": "MyJD_Commonfunction",
+					"pageId": "MyJD_Main",
+					"pageLevel": "3"
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/24348/14/2712/5169/5c20aec5E02966ccd/c1ef444def4788da.png",
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"contentType": 0,
+				"showRedDot": 0,
+				"functionId": "wodeyuyue"
+			}, {
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://vip.m.jd.com?jdreactkey=JDReactVip&jdreactapp=JDReactVip",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "京东会员"
+				},
+				"clickMta": {
+					"eventParam": "moreActivity-jingdonghuiyuan@@@1#13#100033-woJingBaiBao-909127#909127",
+					"eventId": "MyJD_Commonfunction",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/31964/25/1493/6078/5c4e6829Ea51a40b7/5ae64e87a5ea8ecb.png",
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"contentType": 0,
+				"showRedDot": 0,
+				"functionId": "jingdonghuiyuan"
+			}, {
+				"jumpInfo": {
+					"jumpType": 2,
+					"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdreactcommon\",\"modulename\":\"JDReactNewProduct\",\"appname\":\"JDReactNewProduct\",\"to\": \"jdtry_home\"}",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "新品试用"
+				},
+				"clickMta": {
+					"eventParam": "moreActivity-wodeshiyong@@@1#13#100033-woJingBaiBao-909127#909127",
+					"eventId": "MyJD_Commonfunction",
+					"pageId": "MyJD_Main",
+					"pageLevel": ""
+				},
+				"safeImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/15401/6/2710/5887/5c20aec4E5d00a7e6/4f11f14517663210.png",
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"contentType": 0,
+				"showRedDot": 0,
+				"functionId": "wodeshiyong"
+			}]
+		},
+		"mId": "multiBusinessModule",
+		"refId": "gengduorukou",
+		"sortId": 6
+	}, {
+		"bId": "eCustom_flo_443",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"enc": 2,
+			"attentionList": "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"
+		},
+		"mId": "attentionFloor",
+		"refId": "wodeguanzhu",
+		"sortId": 11
+	}, {
+		"bId": "commonBanner_flo_316",
+		"cf": {
+			"bgc": "#FFFFFF",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"commonInfo": {
+				"margin": "0",
+				"height": 140,
+				"alignStyle": 1,
+				"angle": "24",
+				"lableName": "定时活动banner楼层"
+			},
+			"banners": [{
+				"jumpType": "2",
+				"pageParam": "",
+				"eventParam": "3_啊哈时刻-8510以上版本",
+				"jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"jdreactcommon\",\"modulename\":\"JDReactAHa\",\"appname\":\"JDReactAHa\",\"ishidden\":true,\"param\":{\"routerIndex\":\"topicDetail\", \"topicId\":\"3\"}}",
+				"eventId": "MyJD",
+				"pageId": "",
+				"lableImage": "https://img14.360buyimg.com/imagetools/jfs/t1/110772/36/4808/125067/5ea005bcE3806be1d/a152b480e933ac70.png",
+				"lableName": "啊哈时刻-8510以上版本",
+				"eventLevel": "",
+				"orderGrade": ""
+			}]
+		},
+		"mId": "commonBanner",
+		"refId": "activitybanner",
+		"sortId": 15
+	}, {
+		"bId": "myownerfloor_wodezhuanshu_flo_396",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"text": "我的卡片",
+			"iconUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/9802/30/13723/2153/5c46b3e5E5a8ce15b/0b148f62525d49a6.png",
+			"tips": "定制"
+		},
+		"mId": "myownerfloor_wodezhuanshu",
+		"refId": "wodezhuanshu",
+		"sortId": 16
+	}, {
+		"bId": "commonBanner_flo_457",
+		"cf": {
+			"bgc": "#FFFFFF",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"commonInfo": {
+				"margin": "0",
+				"height": 104,
+				"alignStyle": 1,
+				"angle": "24",
+				"lableName": "我的京东-专属引导-7.5.2"
+			},
+			"banners": [{
+				"jumpType": "4",
+				"pageParam": "",
+				"eventParam": "4",
+				"jumpUrl": "router://JDMyJdModule/showCustomization",
+				"eventId": "MyJD",
+				"pageId": "",
+				"lableImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/8134/33/10350/28854/5c218c95E0af3754c/c98ff87dc08a11f2.png",
+				"lableName": "我的京东-专属引导-7.5.2",
+				"eventLevel": "",
+				"orderGrade": ""
+			}]
+		},
+		"mId": "commonBanner",
+		"refId": "zhuanshuyindao",
+		"sortId": 16
+	}, {
+		"bId": "npcard_quanyi_flo_319",
+		"cf": {
+			"bgc": "#FFFFFF",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"extraInfo": {
+				"bid": "npcard_quanyi_flo_319",
+				"mid": "npcard_quanyi"
+			},
+			"commonInfo": {
+				"margin": "16",
+				"angle": "16",
+				"lableName": "我京首页-PLUS会员专属"
+			},
+			"maiDian": {
+				"notNowParam": "npcard_quanyi_npcard_quanyi_flo_319_4030-1000",
+				"setParam": "npcard_quanyi_npcard_quanyi_flo_319_4030-1000",
+				"noMoreSure": "MyJD_bpCommonCard_NoMore_Noway",
+				"more": "MyJD_bpCommonCard_More",
+				"noMoreThink": "MyJD_bpCommonCard_NoMore_Think",
+				"noMoreSureParam": "npcard_quanyi_npcard_quanyi_flo_319_4030-1000",
+				"noMore": "MyJD_bpCommonCard_NoMore",
+				"set": "MyJD_bpCommonCard_Set",
+				"notNow": "MyJD_bpCommonCard_NotNow",
+				"noMoreParam": "npcard_quanyi_npcard_quanyi_flo_319_4030-1000",
+				"moreParam": "npcard_quanyi_npcard_quanyi_flo_319_4030-1000",
+				"noMoreThinkParam": "npcard_quanyi_npcard_quanyi_flo_319_4030-1000"
+			},
+			"bizData": {
+				"plusInfo": {
+					"statusCode": "4030",
+					"statusLabel": "正式过期"
+				},
+				"contentInfo": {
+					"right": {
+						"goodsList": [{
+							"linkType": "1",
+							"maiDian": {
+								"eventId": "MyJD_Rights_Product",
+								"expoInfo": "07827020-13755104-S-100007000094#1-0-2--6--#2-did-11493133#332-11493133#plusMkt@@100007000094",
+								"eventParam": "4030-1000_1_1_100007000094_1#ABTest-10380-A-54&ABTest-10377-B-97&ABTest-10376-A-48&ABTest-10360-B6-98&0379e04fc81b47bcaca70e6e844b76a3$$$11493133-332_07827020-13755104-S-100007000094#1-0-2--6--#2-did-11493133#332-11493133#plusMkt"
+							},
+							"image": "https://m.360buyimg.com/babel/jfs/t1/90601/14/14755/176391/5e6a0a54E7a479b97/42a91795813b1073.jpg",
+							"sku": "100007000094",
+							"promotionPrice": "35.00",
+							"plusPrice": "29.90"
+						}],
+						"contentType": "3",
+						"more": {
+							"linkType": "2",
+							"maiDian": {
+								"eventId": "MyJD_Rights_ProductMore",
+								"eventParam": "4030-1000_1"
+							},
+							"text": "尊享商品",
+							"url": "https://plus.m.jd.com/products/list"
+						},
+						"testId": "1#ABTest-10380-A-54&ABTest-10377-B-97&ABTest-10376-A-48&ABTest-10360-B6-98&0379e04fc81b47bcaca70e6e844b76a3$$$11493133-332",
+						"style": "1"
+					},
+					"left": {
+						"id": "45057",
+						"title": "省钱攻略",
+						"style": "2",
+						"linkType": "2",
+						"maiDian": {
+							"eventId": "MyJD_Rights_Activity",
+							"eventParam": "4030-1000_1_45057"
+						},
+						"image": "https://img14.360buyimg.com/pop/jfs/t1/88922/2/12059/92207/5e425c2bE463e96bd/7e4c144e2a827849.png",
+						"contentType": "1",
+						"url": "https://plus.m.jd.com/products/list"
+					}
+				},
+				"noticeInfo": {
+					"icon": "https://img11.360buyimg.com/pop/jfs/t26374/176/79365/1834/1c453212/5b7fbd7bN06a36d22.png",
+					"messageList": [{
+						"id": "21528",
+						"text": ["PLUS正式会员每月100元全品类优惠券"],
+						"style": "1",
+						"linkType": "2",
+						"maiDian": {
+							"eventId": "MyJD_Rights_Dynamic",
+							"eventParam": "4030-1000_1_PLUS正式会员每月100元全品类优惠券"
+						},
+						"url": "https://plus.m.jd.com/rights/plusRightsDetail?/detail2"
+					}],
+					"label": "动态:"
+				},
+				"maiDian": {
+					"eventId": "MyJD_Rights_Expo",
+					"eventParam": "Activity#Product_4030-1000"
+				},
+				"style": "2"
+			},
+			"extendInfo": {
+				"footer": {
+					"jumpUrl": "https://plus.m.jd.com/index",
+					"text": "去PLUS主页"
+				},
+				"header": {
+					"labelColor": "#2E2D2D",
+					"labelName": "PLUS会员专享"
+				}
+			}
+		},
+		"mId": "npcard_quanyi",
+		"refId": "pluscard",
+		"sortId": 17
+	}, {
+		"bId": "wendadongtai_flo_444",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"questionImgUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/116517/8/657/4894/5e8ed4c5Ec07f2691/be4e49ef5e3be41f.png",
+			"myList": [{
+				"id": "38555521",
+				"userText": "向您提问",
+				"nickName": "jd_183596mwd",
+				"questionContent": "脸上水油不平衡的用这款怎么样",
+				"skuId": "4498517",
+				"question": "0",
+				"wareImg": "https://img30.360buyimg.com/shaidan/s250x250_jfs/t1/18293/22/2447/439107/5c1cb8a8E4a0e2d6e/df305ad20241c98b.jpg",
+				"userImg": "https://img10.360buyimg.com/imagetools/jfs/t1/62024/28/3423/4136/5d19da36E2f2d8a8f/85d3ced5216db1d4.png",
+				"answerCountText": "共4条回答"
+			}, {
+				"id": "39119949",
+				"userText": "向您提问",
+				"nickName": "明月医生",
+				"questionContent": "这是激素药吗？",
+				"skuId": "44827688403",
+				"question": "0",
+				"wareImg": "https://img30.360buyimg.com/shaidan/s250x250_jfs/t1/84961/23/14102/166271/5e60b5a5Eaafe24f0/ca8a725cb4f9703e.jpg",
+				"userImg": "https://img10.360buyimg.com/imagetools/jfs/t1/62024/28/3423/4136/5d19da36E2f2d8a8f/85d3ced5216db1d4.png",
+				"answerCountText": "共6条回答"
+			}],
+			"testId": "ABTest-10183-B-54#ABTest-10172-PR4-54",
+			"answerImgUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/105033/39/18046/5491/5e8ed4c4Ef6698c45/3015ac28d512f655.png",
+			"questionText": "查看更多",
+			"strategyId": "B",
+			"testParam": "ABTest-10183-B-54#ABTest-10172-PR4-54_0_4498517-38555521-4#44827688403-39119949-6",
+			"extendInfo": {
+				"footer": {
+					"text": "查看更多",
+					"jumpUrl": ""
+				},
+				"header": {
+					"labelColor": "#2E2D2D",
+					"rightIconText2": {
+						"text": "不再出现"
+					},
+					"rightIconText1": {
+						"text": "暂不需要",
+						"param": {}
+					},
+					"labelName": "我的问答"
+				}
+			}
+		},
+		"mId": "wendadongtai",
+		"refId": "wendadongtai",
+		"sortId": 18
+	}, {
+		"bId": "npcard_jinrongfuwu_flo_251",
+		"cf": {
+			"bgc": "#FFFFFF",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"commonInfo": {
+				"margin": "16",
+				"angle": "16",
+				"lableName": "金融卡片楼层"
+			},
+			"infoList": [{
+				"detailUrl": "https://active.jd.com/forever/cashback/?channellv=jrfw",
+				"extra": {
+					"content": "去查看",
+					"type": 1
+				},
+				"data": {
+					"downData": ["京东支付享优惠"],
+					"upData": ["限时领金贴"]
+				},
+				"modeType": 2,
+				"oneCategory": "6@6M10@60",
+				"biz": {
+					"text": "金贴",
+					"bizImgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t15031/220/2228641301/505/fb73294d/5a7c499eN199e2eca.png?width=54&height=54"
+				},
+				"info": "W3siY2xpY2tGbGFnIjoxLCJkZWZhdWx0RmxhZyI6MSwiaWQiOiI2MCIsInR3b0NhdGVnb3J5Q29kZSI6IjZfMTAifSx7ImNsaWNrRmxhZyI6MCwiZGVmYXVsdEZsYWciOjEsImlkIjoiODkiLCJ0d29DYXRlZ29yeUNvZGUiOiI0XzEzIn1d"
+			}, {
+				"detailUrl": "https://m.jr.jd.com/member/dailyAnswer/?channel=618push",
+				"extra": {
+					"content": "去查看",
+					"type": 1
+				},
+				"data": {
+					"downData": ["每日答题赚50金币"],
+					"upData": ["随机抽取888金币"]
+				},
+				"modeType": 2,
+				"oneCategory": "4@4M13@89",
+				"biz": {
+					"text": "每日答题",
+					"bizImgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t15982/331/1891645003/648/b2507e4d/5a685eadNa7fc59ef.png?width=54&height=54"
+				},
+				"info": "W3siY2xpY2tGbGFnIjowLCJkZWZhdWx0RmxhZyI6MSwiaWQiOiI2MCIsInR3b0NhdGVnb3J5Q29kZSI6IjZfMTAifSx7ImNsaWNrRmxhZyI6MSwiZGVmYXVsdEZsYWciOjEsImlkIjoiODkiLCJ0d29DYXRlZ29yeUNvZGUiOiI0XzEzIn1d"
+			}],
+			"maiDian": {
+				"noMoreSure": "MyJD_Banking_NoMore_Noway",
+				"more": "MyJD_Banking_More",
+				"notNow": "MyJD_Banking_NotNow",
+				"noMoreThink": "MyJD_Banking_NoMore_Think",
+				"noMore": "MyJD_Banking_NoMore",
+				"set": "MyJD_Banking_Set"
+			},
+			"extendInfo": {
+				"footer": {
+					"jumpUrl": "https://m.jr.jd.com/vip/jdjrservice/index.html",
+					"text": "查看更多"
+				},
+				"header": {
+					"labelColor": "#2E2D2D",
+					"rightIconText3": {
+						"text": "换一换",
+						"clickMta": {
+							"eventParam": "1",
+							"eventId": "MyJD_Banking_Change",
+							"pageId": "MyJD_Main"
+						},
+						"param": {
+							"exchangeId": "jinrongfuwu"
+						},
+						"hasNext": true,
+						"iconUrl": "https://img30.360buyimg.com/mobilecms/jfs/t1/20904/35/5940/639/5c458919E6af8906b/a2e8da74593587c1.png",
+						"tipMta": {
+							"eventParam": "",
+							"eventId": "MyJD_Banking_NocontentExpo",
+							"pageId": "MyJD_Main"
+						},
+						"functionId": "exchangeCardInfo",
+						"tip": "暂无更多内容哦",
+						"expoMta": {
+							"eventParam": "1",
+							"eventId": "MyJD_Banking_ChangeExpo",
+							"pageId": "MyJD_Main"
+						}
+					},
+					"labelName": "金融服务"
+				}
+			}
+		},
+		"mId": "npcard_jinrongfuwu",
+		"refId": "jinrongfuwu",
+		"sortId": 29
+	}, {
+		"bId": "recommendfloor_flo_445",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"title": {
+				"color": "#2e2e2e",
+				"value": "我的推荐"
+			}
+		},
+		"mId": "recommendfloor",
+		"refId": "recommendfloor",
+		"sortId": 33
+	}],
+	"others": {
+		"darkMode": {
+			"enable": true,
+			"snapshotInBackground": 1
+		},
+		"headStyleV90": {
+			"enable": false
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+    "countdown": 1,
+    "dynamicDisplay": 0,
+    "showTimesDaily": 4,
+    "firework": 0,
+    "saoasaoLocation": 1,
+    "images": [{
+        "sourceValue": "_8043_",
+        "showTimes": 2,
+        "type": 0,
+        "url": "https://m.360buyimg.com/mobilecms/s1125x2001_jfs/t1/65721/2/9198/263702/5d6f28eaEe43a8a67/050045e08abdc00e.jpg!cr_1125x2001_0_218",
+        "jump": {
+          "des": "m",
+          "srv": "_8043_",
+          "shareInfo": {
+            "avatar": ""
+          },
+          "params": {
+            "needLogin": "0",
+            "url": "https://pro.m.jd.com/mall/active/4D3Q9R4C9zep4vRVLWFuaSVVG9i2/index.html"
+          }
+        },
+        "groupId": 8043,
+        "time": 3,
+        "onlineTime": "2019-09-05 00:00:00",
+        "referralsTime": "2019-09-06 00:00:00",
+        "sequence": 1,
+        "ynSkip": 1,
+        "displaceEnable": "0"
+      },
+      {
+        "sourceValue": "131072#_8045_",
+        "showTimes": 2,
+        "type": 0,
+        "url": "https://m.360buyimg.com/mobilecms/s1125x2001_jfs/t1/57957/30/9327/266952/5d6e0919E27526772/8716d4337a2e398f.jpg!cr_1125x2001_0_218",
+        "jump": {
+          "des": "m",
+          "srv": "131072#_8045_",
+          "shareInfo": {
+            "avatar": ""
+          },
+          "params": {
+            "needLogin": "0",
+            "url": "https://h5.m.jd.com/babelDiy/Zeus/3qYcQW3jNwyR6sBNGkKtSRnTLZmW/index.html"
+          }
+        },
+        "groupId": 8045,
+        "time": 3,
+        "onlineTime": "2019-09-06 00:00:00",
+        "referralsTime": "2019-09-07 00:00:00",
+        "sequence": 1,
+        "ynSkip": 1,
+        "displaceEnable": "0"
+      }
+    ],
+    "saoasaoUrl": "https://m.360buyimg.com/mobilecms/jfs/t23029/35/1209471717/7394/b3589acc/5b55d999Nafcfc558.png",
+    "code": "200",
+    "saoasaoSwitch": 1
+  }

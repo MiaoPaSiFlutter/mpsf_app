@@ -1,0 +1,747 @@
+{
+    "floorList": [{
+        "floorId": 12,
+        "floorName": "细分类目楼层",
+        "showHead": 0,
+        "rightText": "",
+        "style": "0901",
+        "srvJson": "{\"poolid\":\"41\",\"floorIdDetail\":\"12\",\"styleid\":\"0901\",\"classfynum\":\"4\",\"classfyid\":\"370\",\"pid\":\"79\",\"floorLoc\":\"0\"}",
+        "content": [{
+            "id": 12,
+            "materialId": "669",
+            "name": "乳液面霜",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/53699/35/13894/26748/5da81f90E8a0499c5/a3aeb882f54d1b4f.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "乳液/面霜"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"669\",\"loc\":\"0\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "668",
+            "name": "化妆水",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/91714/8/145/18826/5da82068E9bd1fabf/bbef25508997676a.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "化妆水/爽肤水"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"668\",\"loc\":\"1\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "676",
+            "name": "香水",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/78902/23/13323/4431/5da85087E20e4e0fb/7d26eac17db01adb.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "香水"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"676\",\"loc\":\"2\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "774",
+            "name": "唇彩唇釉",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/51747/12/13694/29346/5da83eb4E972672ce/00d564fc9a1526bb.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "唇彩/唇蜜/唇釉"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"774\",\"loc\":\"3\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "679",
+            "name": "眼影",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/85547/10/4800/9583/5de8e11fEb7dfcd16/806bc7820d563752.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "眼影"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"679\",\"loc\":\"4\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "665",
+            "name": "美妆工具",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/52938/10/13110/3727/5da0aaceE5e40e4d6/ff0381d45147f8e2.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "美妆工具"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"665\",\"loc\":\"5\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "727",
+            "name": "润唇膏",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/92469/29/136/2539/5da8236eEa2449c52/d6a826db59bd6cee.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "润唇膏"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"727\",\"loc\":\"6\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "765",
+            "name": "BB霜",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/94597/13/145/23613/5da83ca6E72a87813/abf2b88f0c0ce61b.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "BB霜"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"765\",\"loc\":\"7\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 12,
+            "materialId": "768",
+            "name": "眉笔眉粉",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/93765/7/167/28647/5da83d5cEb8e48e3b/ae0a1d34fe051d8a.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "3"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "眉笔+眉粉"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"768\",\"loc\":\"8\",\"biinfo\":\"diviner#621308#100#bd0e73242e9126d94bdfa8f963bc17c7626e1b34\"}"
+            },
+            "iconType": 0
+        }, {
+            "id": 0,
+            "name": "更多分类",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/69671/10/12704/2880/5da1a548E0d3bea6c/a43cb049cd5740f5.png!q70.jpg",
+            "jump": {
+                "srvJson": "{\"materialId\":\"0\",\"loc\":\"9\",\"biinfo\":\"0\"}"
+            },
+            "iconType": 1
+        }],
+        "filteredCateIds": "669,668,676,774,679,665,727,765,768",
+        "catePoolId": 52,
+        "cid": "370"
+    }, {
+        "floorId": 141,
+        "floorName": "长期banner",
+        "showHead": 0,
+        "rightText": "",
+        "style": "0908",
+        "srvJson": "{\"poolid\":\"41\",\"floorIdDetail\":\"141\",\"styleid\":\"0908\",\"classfynum\":\"4\",\"classfyid\":\"370\",\"pid\":\"79\",\"floorLoc\":\"1\"}",
+        "content": [{
+            "id": 767,
+            "materialId": "767",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/93332/37/11800/119981/5e3b9730E1e1e59df/53373398fbf91127.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "m",
+                "params": {
+                    "url": "https://pro.m.jd.com/mall/active/NrrAq2dtJU1mWFjHCz7Qt6epDi6/index.html?babelChannel=xiaoshouyebanner"
+                },
+                "srv": ""
+            }
+        }],
+        "height": 150
+    }, {
+        "floorId": 188,
+        "floorName": "品牌精选",
+        "showHead": 2,
+        "headImg": "https://m.360buyimg.com/mobilecms/jfs/t1/98248/25/4619/4595/5de7ba47Ec8b0f207/66c272a35d308d99.png!q70.jpg",
+        "rightText": "",
+        "style": "0903",
+        "srvJson": "{\"poolid\":\"41\",\"floorIdDetail\":\"188\",\"styleid\":\"0903\",\"classfynum\":\"4\",\"classfyid\":\"370\",\"pid\":\"79\",\"floorLoc\":\"2\"}",
+        "content": [{
+            "id": 261,
+            "materialId": "21201",
+            "name": "自然共和国",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t5809/192/922292285/2806/62e34b5d/592286f2N94a0ff67.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "自然共和国"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"21201\",\"loc\":\"0\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }, {
+            "id": 261,
+            "materialId": "257968",
+            "name": "纽西之谜",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t463/262/1391928827/38723/7533128b/54d4613aN85ab908a.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "纽西之谜"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"257968\",\"loc\":\"1\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }, {
+            "id": 261,
+            "materialId": "153125",
+            "name": "韩束",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t3919/246/1468583163/5851/1a1dc0a/58c1126eNb288a1cc.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "韩束"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"153125\",\"loc\":\"2\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }, {
+            "id": 261,
+            "materialId": "25337",
+            "name": "得鲜",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/3640/38/3947/1747/5b9b1dd9E3829550c/ac8b3fdd1c9e20bb.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "得鲜"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"25337\",\"loc\":\"3\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }, {
+            "id": 261,
+            "materialId": "324056",
+            "name": "马丁",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/5528/37/3544/6539/5b99b8efE4ba76b92/404b11ca6fc6aeee.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "马丁"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"324056\",\"loc\":\"4\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }, {
+            "id": 261,
+            "materialId": "4974",
+            "name": "冰王",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/706/30/3935/3746/5b99b7aaEd0be0ae0/76c960ef7503b518.png!q70.jpg",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "冰王"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"4974\",\"loc\":\"5\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }, {
+            "id": 261,
+            "materialId": "13676",
+            "name": "欧莱雅",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/781/27/4248/1962/5b9b1604E9fa3426c/e9b8525c312f4940.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "欧莱雅"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"13676\",\"loc\":\"6\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }, {
+            "id": 261,
+            "materialId": "249800",
+            "name": "完美日记",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/10461/24/3029/3422/5be2abb8E1d5498b8/85679ee27219027c.png!q70.jpg",
+            "jump": {
+                "des": "productList",
+                "params": {
+                    "from": "search",
+                    "clearBodyMaps": [{
+                        "key": "searchSource",
+                        "value": "2"
+                    }, {
+                        "key": "homeRequireAd",
+                        "value": "1"
+                    }, {
+                        "key": "categorySet",
+                        "value": "1316"
+                    }, {
+                        "key": "stock",
+                        "value": "1"
+                    }],
+                    "keyWord": "完美日记"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"249800\",\"loc\":\"7\",\"biinfo\":\"1#26044aeabb0e0a7541a1c66fe99d2d7543bada1-0-621309#\"}"
+            }
+        }],
+        "showIconName": 1
+    }, {
+        "floorId": 13,
+        "floorName": "限时抢购",
+        "showHead": 3,
+        "headImg": "https://m.360buyimg.com/mobilecms/jfs/t1/72050/35/13333/3925/5da844dfE6255e5c1/9ed28c937aaac48d.png!q70.jpg",
+        "rightImg": "",
+        "rightText": "更多",
+        "rightJump": {
+            "des": "miaosha",
+            "params": {
+                "topSkus": "11237199121,10136260161,6859409",
+                "secKillKeyTabType": "seckill"
+            },
+            "srv": "",
+            "srvJson": "{\"materialId\":\"\"}"
+        },
+        "style": "0902",
+        "srvJson": "{\"poolid\":\"41\",\"floorIdDetail\":\"13\",\"styleid\":\"0902\",\"classfynum\":\"4\",\"classfyid\":\"370\",\"pid\":\"79\",\"floorLoc\":\"3\"}",
+        "content": [{
+            "id": 13,
+            "materialId": "11237199121",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t19585/282/1446745257/227904/3b097550/5acac474Nda659812.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "11237199121"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"11237199121\",\"loc\":\"0\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "200.00",
+            "sprice": "137.00",
+            "saleRatio": "19"
+        }, {
+            "id": 13,
+            "materialId": "10136260161",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/11700/38/13165/49065/5c986b88E38c77bb3/c521108150ae364b.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "10136260161"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"10136260161\",\"loc\":\"1\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "198.00",
+            "sprice": "117.00",
+            "saleRatio": "27"
+        }, {
+            "id": 13,
+            "materialId": "6859409",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/93875/21/11609/201352/5e3b7f3fEc254d879/af4d9b5d855c31dd.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "6859409"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"6859409\",\"loc\":\"2\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "398.00",
+            "sprice": "278.00",
+            "saleRatio": "24",
+            "promotionTag": "87天最低价"
+        }, {
+            "id": 13,
+            "materialId": "61762366107",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/93268/19/2219/63348/5dcd2649E459ff97a/4ccd0078f15ac40c.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "61762366107"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"61762366107\",\"loc\":\"3\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "65.00",
+            "sprice": "39.80",
+            "saleRatio": "16"
+        }, {
+            "id": 13,
+            "materialId": "34758080345",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t24655/129/2275100395/273109/5593d79d/5bc84989Nbff005ef.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "34758080345"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"34758080345\",\"loc\":\"4\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "188.00",
+            "sprice": "119.00",
+            "saleRatio": "24"
+        }, {
+            "id": 13,
+            "materialId": "32410834108",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t25603/272/1221706983/84781/62395781/5b8e3713Nd4b6aef3.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "32410834108"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"32410834108\",\"loc\":\"5\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "48.00",
+            "sprice": "29.00",
+            "saleRatio": "16"
+        }, {
+            "id": 13,
+            "materialId": "61026883451",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/79204/5/14465/165569/5dc126e3E581b094f/cfe574e6d7ea08e9.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "61026883451"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"61026883451\",\"loc\":\"6\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "69.00",
+            "sprice": "45.00",
+            "saleRatio": "25"
+        }, {
+            "id": 13,
+            "materialId": "27389127836",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t22027/74/1006365172/126625/c487c70d/5b1e280fN0676e274.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "27389127836"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"27389127836\",\"loc\":\"7\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "62.00",
+            "sprice": "57.90",
+            "saleRatio": "22"
+        }, {
+            "id": 13,
+            "materialId": "34365253809",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t30235/168/1565113474/83314/5adcfc34/5ce3d2daN5298f94c.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "34365253809"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"34365253809\",\"loc\":\"8\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "198.00",
+            "sprice": "106.00",
+            "saleRatio": "16"
+        }, {
+            "id": 13,
+            "materialId": "10991362418",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/6293/33/6834/131173/5be15138E7e8e0399/fcc42ae423bca032.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "productDetail",
+                "params": {
+                    "skuId": "10991362418"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"10991362418\",\"loc\":\"9\",\"biinfo\":\"1#2#5c5f2192bd4546b8afb8d835818976e5f2afe116-100-621213#16305660\"}"
+            },
+            "jdPrice": "180.00",
+            "sprice": "108.00",
+            "saleRatio": "18"
+        }, {
+            "id": 13,
+            "name": "限时抢购",
+            "jump": {
+                "des": "miaosha",
+                "params": {
+                    "secKillKeyTabType": "seckill"
+                },
+                "srv": ""
+            },
+            "type": 1
+        }]
+    }, {
+        "floorId": 311,
+        "floorName": "美妆-聚合榜单",
+        "showHead": 0,
+        "rightText": "",
+        "style": "0910",
+        "srvJson": "{\"poolid\":\"41\",\"floorIdDetail\":\"311\",\"styleid\":\"0910\",\"classfynum\":\"4\",\"classfyid\":\"370\",\"pid\":\"79\",\"floorLoc\":\"4\"}",
+        "content": [{
+            "id": 676,
+            "materialId": "8208",
+            "name": "热卖榜",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/92551/13/5371/112515/5dede03cE586632d1/cb55c2642a83260c.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "m",
+                "params": {
+                    "url": "https://ranking.m.jd.com/comLandingPage/comLandingPage?rankType=10&fromName=dacu_huichang&contentId=8208"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"8208\",\"categoryId\":\"1389\",\"loc\":\"0\",\"biinfo\":\"1#6ea7203dbe1172a83a6b479d730b28f1472e5f9-0-621177#18583489\",\"type\":\"1\",\"sku\":\"40954077925\"}"
+            },
+            "jdPrice": "149",
+            "saleNumText": "193万人买过",
+            "rankName": "欧美洁面榜",
+            "bgImg": "https://m.360buyimg.com/mobilecms/jfs/t1/104205/17/7224/7214/5dfadda8E46085706/6f9b521ad472476f.png!q70.jpg",
+            "bgColor": "#D5AA79,#FFFF00"
+        }, {
+            "id": 677,
+            "materialId": "8753",
+            "name": "热卖榜",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t1/40032/32/12742/110829/5d3e69d6Ea57602e9/c75348dcab54372d.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "m",
+                "params": {
+                    "url": "https://ranking.m.jd.com/comLandingPage/comLandingPage?rankType=10&fromName=dacu_huichang&contentId=8753"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"8753\",\"categoryId\":\"1420\",\"loc\":\"1\",\"biinfo\":\"1#6ea7203dbe1172a83a6b479d730b28f1472e5f9-0-621177#18583489\",\"type\":\"1\",\"sku\":\"53553048635\"}"
+            },
+            "jdPrice": "168",
+            "saleNumText": "5.6万人买过",
+            "rankName": "精选粉底霜",
+            "bgImg": "https://m.360buyimg.com/mobilecms/jfs/t1/102601/8/7391/7572/5dfaebc4E4fadd807/2b23418f5a21cfaf.png!q70.jpg",
+            "bgColor": "#B68367"
+        }, {
+            "id": 678,
+            "materialId": "8949",
+            "name": "热卖榜",
+            "img": "https://m.360buyimg.com/mobilecms/jfs/t18076/132/993457287/275553/7bf04a4b/5ab55c2fN0f3a124e.jpg!q70.jpg.dpg.webp",
+            "jump": {
+                "des": "m",
+                "params": {
+                    "url": "https://ranking.m.jd.com/comLandingPage/comLandingPage?rankType=10&fromName=dacu_huichang&contentId=8949"
+                },
+                "srv": "",
+                "srvJson": "{\"materialId\":\"8949\",\"categoryId\":\"13544\",\"loc\":\"2\",\"biinfo\":\"1#6ea7203dbe1172a83a6b479d730b28f1472e5f9-0-621177#18583489\",\"type\":\"1\",\"sku\":\"12656544808\"}"
+            },
+            "jdPrice": "24",
+            "saleNumText": "24.6万人买过",
+            "rankName": "卸妆湿巾榜",
+            "bgImg": "https://m.360buyimg.com/mobilecms/jfs/t1/100030/15/7310/7214/5dfaebcaE1235b2a1/f02fb14d8c497b3d.png!q70.jpg",
+            "bgColor": "#D5AA79"
+        }],
+        "showRankType": 1
+    }, {
+        "floorId": 15,
+        "floorName": "京挑惠选",
+        "showHead": 2,
+        "headImg": "https://m.360buyimg.com/mobilecms/jfs/t1/102627/33/149/14395/5da847c7E7d53fdbf/e0b763d816c69ac8.png!q70.jpg",
+        "rightText": "",
+        "style": "0906",
+        "srvJson": "{\"poolid\":\"41\",\"floorIdDetail\":\"15\",\"styleid\":\"0906\",\"classfynum\":\"4\",\"classfyid\":\"370\",\"pid\":\"79\",\"floorLoc\":\"5\"}",
+        "content": []
+    }],
+    "code": "0"
+}
